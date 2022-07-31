@@ -37,13 +37,13 @@ h3 {
 
 h4 {
   font-family: "Space Mono", monospace;
-  /* font-size: 45px; */
+  font-size: 2rem;
   color: #000000;
 }
 
 p {
   font-family: "Kanit", sans-serif;
-  font-size: 18px;
+  font-size: 1rem;
   line-height: 169.5%;
   letter-spacing: 0.03em;
   color: var(--paragraph-color-text);
@@ -55,14 +55,13 @@ p {
   padding: 8px 6% 8px;
 }
 
-.btn-hire {
+.btn-designed {
   border: var(--border-btn);
   border-radius: 0;
   padding: var(--padding-btn);
 }
 
 /* Content */
-
 .container {
   border: 1px solid #000;
   background-color: var(--main-background-color);
@@ -82,6 +81,14 @@ p {
 .second-block p {
   font-family: "Space Mono", monospace;
   font-size: 1rem;
+}
+
+/* Projects */
+.projects {
+  margin-bottom: 10rem;
+}
+.project-content p span {
+  margin-right: 2rem;
 }
 
 /* responsive */
