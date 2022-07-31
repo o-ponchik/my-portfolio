@@ -13,7 +13,7 @@ font-family: 'Space Mono', monospace; */
 }
 
 body {
-  padding: 0 5% 5%;
+  padding: 0 3% 3%;
 }
 
 h1,
@@ -70,12 +70,34 @@ p {
   padding: 14% 8% 0;
 }
 
-/* #1 block */
-.underline-block {
+/* second block */
+.second-block {
+  width: 80%;
+  margin: 10rem auto;
+  background-color: #fff;
+  border: 1px solid #000;
+  padding: 1.5rem;
+}
+
+.second-block p {
+  font-family: "Space Mono", monospace;
+  font-size: 1rem;
 }
 
 /* responsive */
 @media (max-width: 576px) {
+  body {
+    padding: 0;
+  }
+
+  .container {
+    border: none;
+  }
+
+  .second-block {
+    width: 100%;
+  }
+
   h1 {
     font-size: 2.8rem;
     line-height: 1;
