@@ -87,8 +87,15 @@ p {
 .projects {
   margin-bottom: 10rem;
 }
+
 .project-content p span {
   margin-right: 2rem;
+}
+
+/* Contacts */
+.contact {
+  margin: 0 auto 10rem;
+  width: 60%;
 }
 
 /* responsive */
