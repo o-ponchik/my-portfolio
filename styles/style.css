@@ -2,13 +2,51 @@
 font-family: 'Space Mono', monospace; */
 :root {
   --main-background-color: #fcf8e8;
+  --border-btn: 1px solid #94b49f;
+  --padding-btn: 0.5rem 1rem;
+  --paragraph-color-text: #4b4848;
 }
+
 * {
   box-sizing: border-box;
+  font-size: 100%;
 }
 
 body {
   padding: 0 5% 5%;
+}
+
+h1,
+h2,
+h4 {
+  font-family: "Kanit", sans-serif;
+}
+
+h1 {
+  font-size: 4.5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+  color: #666363;
+}
+
+h4 {
+  font-family: "Space Mono", monospace;
+  /* font-size: 45px; */
+  color: #000000;
+}
+
+p {
+  font-family: "Kanit", sans-serif;
+  font-size: 18px;
+  line-height: 169.5%;
+  letter-spacing: 0.03em;
+  color: var(--paragraph-color-text);
 }
 
 /* Navbar */
@@ -18,13 +56,65 @@ body {
 }
 
 .btn-hire {
-  border: 1px solid #94b49f;
+  border: var(--border-btn);
   border-radius: 0;
-  padding: 0.5rem 1rem;
+  padding: var(--padding-btn);
 }
+
+/* Content */
 
 .container {
   border: 1px solid #000;
   background-color: var(--main-background-color);
-  height: 800px;
+  height: fit-content;
+  padding: 14% 8% 0;
+}
+
+/* #1 block */
+.underline-block {
+}
+
+/* responsive */
+@media (max-width: 576px) {
+  h1 {
+    font-size: 2.8rem;
+    line-height: 1;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  h1 {
+    font-size: 2.8rem;
+    line-height: 1;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+  h1 {
+    font-size: 3.8rem;
+  }
+
+  h2 {
+    font-size: 3.3em;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
 }
