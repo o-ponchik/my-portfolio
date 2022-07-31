@@ -1,2 +1,30 @@
 /* font-family: 'Kanit', sans-serif;
 font-family: 'Space Mono', monospace; */
+:root {
+  --main-background-color: #fcf8e8;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0 5% 5%;
+}
+
+/* Navbar */
+.navbar {
+  font-family: "Space Mono", monospace;
+  padding: 8px 6% 8px;
+}
+
+.btn-hire {
+  border: 1px solid #94b49f;
+  border-radius: 0;
+  padding: 0.5rem 1rem;
+}
+
+.container {
+  border: 1px solid #000;
+  background-color: var(--main-background-color);
+  height: 800px;
+}
