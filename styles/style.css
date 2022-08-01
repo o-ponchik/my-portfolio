@@ -18,6 +18,7 @@ font-family: 'Space Mono', monospace; */
 
 body {
   padding: 0 3% 0;
+  height: fit-content;
 }
 
 h1,
@@ -105,7 +106,7 @@ p {
   margin-bottom: 10rem;
 }
 
-.project-content p span {
+.margin-span span {
   margin-right: 2rem;
 }
 
@@ -152,6 +153,17 @@ footer a:visited {
 /* About page */
 .content-about-hide {
   margin-bottom: 5rem;
+}
+
+/* Work page */
+.upgrade {
+  font-size: 3rem;
+  color: var(--footer-color);
+}
+
+.box-text {
+  display: block;
+  margin: 50% auto;
 }
 
 /* responsive */
