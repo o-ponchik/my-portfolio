@@ -6,7 +6,9 @@ font-family: 'Space Mono', monospace; */
   --padding-btn: 0.5rem 1rem;
   --paragraph-color-text: #4b4848;
   --footer-color: rgba(223, 120, 97, 0.37);
-  --green-color: #94b49f;
+  --hover-link-color: #94b49f;
+  --visited-color: #76549a;
+  --hover-btn: #df7861;
 }
 
 * {
@@ -15,7 +17,7 @@ font-family: 'Space Mono', monospace; */
 }
 
 body {
-  padding: 0 3% 3%;
+  padding: 0 3% 0;
 }
 
 h1,
@@ -61,6 +63,11 @@ p {
   border: var(--border-btn);
   border-radius: 0;
   padding: var(--padding-btn);
+  transition: 0.8s;
+}
+
+.btn-designed:hover {
+  border: 1px solid var(--hover-btn);
 }
 
 /* Content */
@@ -118,17 +125,22 @@ footer a {
 }
 
 footer a:hover {
-  color: var(--green-color);
+  color: var(--hover-link-color);
 }
 
-.icons i {
+footer a:visited {
+  color: var(--visited-color);
+}
+
+.icons a i {
   font-size: 2rem;
   margin: 0 1rem 1rem;
+  color: #000;
   transition: color 0.5s;
 }
 
-.icons i:hover {
-  color: var(--green-color);
+.icons a i:hover {
+  color: var(--hover-link-color);
   cursor: pointer;
 }
 
