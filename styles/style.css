@@ -45,6 +45,11 @@ h4 {
   color: #000000;
 }
 
+h5 {
+  font-family: "Space Mono", monospace;
+  color: var(--hover-btn);
+}
+
 p {
   font-family: "Kanit", sans-serif;
   font-size: 1rem;
