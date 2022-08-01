@@ -149,6 +149,11 @@ footer a:visited {
   cursor: pointer;
 }
 
+/* About page */
+.content-about-hide {
+  margin-bottom: 5rem;
+}
+
 /* responsive */
 @media (max-width: 576px) {
   body {
