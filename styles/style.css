@@ -51,7 +51,8 @@ h5 {
   color: var(--hover-btn);
 }
 
-p {
+p,
+.portfolio-link {
   font-family: "Kanit", sans-serif;
   font-size: 1rem;
   line-height: 169.5%;
@@ -148,6 +149,10 @@ footer a:visited {
 .icons a i:hover {
   color: var(--hover-link-color);
   cursor: pointer;
+}
+
+.portfolio-link:hover {
+  text-decoration: underline;
 }
 
 /* About page */
