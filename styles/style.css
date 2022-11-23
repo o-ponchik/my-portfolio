@@ -111,6 +111,24 @@ p,
   margin-right: 2rem;
 }
 
+/* Intersection */
+.intersection {
+  margin-bottom: 10rem;
+  color: var(--hover-btn);
+  font-family: "Kanit", sans-serif;
+  font-size: 2rem;
+}
+
+.intersection a {
+  text-decoration: none;
+  color: var(--hover-btn);
+  transition: color 500ms ease-in-out;
+}
+
+.intersection a:hover {
+  color: var(--visited-color);
+}
+
 /* Contacts */
 .contact {
   margin: 0 auto 10rem;
