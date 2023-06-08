@@ -247,6 +247,10 @@ footer a:visited {
   .contact {
     width: 90%;
   }
+
+  .container {
+    padding: 14% 4% 0;
+  }
 }
 
 @media (min-width: 767px) and (max-width: 992px) {
@@ -260,5 +264,9 @@ footer a:visited {
 
   h3 {
     font-size: 1.5rem;
+  }
+
+  .container {
+    padding: 14% 4% 0;
   }
 }
