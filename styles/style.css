@@ -189,6 +189,19 @@ footer a:visited {
   margin: 50% auto;
 }
 
+.skill-section {
+  margin-bottom: 4rem;
+}
+
+.skill-section h5 {
+  margin-bottom: 4rem;
+}
+
+.skills img {
+  width: 100px;
+  height: 100px;
+}
+
 /* responsive */
 @media (max-width: 576px) {
   body {
