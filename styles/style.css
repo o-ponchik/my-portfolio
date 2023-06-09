@@ -84,6 +84,7 @@ p,
 .box {
   border: 1px solid #000;
   background-color: var(--main-background-color);
+  margin-bottom: 2rem;
 }
 
 .container {
@@ -150,18 +151,24 @@ footer {
 }
 
 footer a {
-  text-decoration: none;
   font-family: "Kanit", sans-serif;
   font-size: 1.5rem;
   color: var(--paragraph-color-text);
+}
+
+footer a,
+.bottom a {
+  text-decoration: none;
   transition: color 0.5s;
 }
 
-footer a:hover {
+footer a:hover,
+.bottom a:hover {
   color: var(--hover-link-color);
 }
 
-footer a:visited {
+footer a:visited,
+.bottom a:visited {
   color: var(--visited-color);
 }
 
