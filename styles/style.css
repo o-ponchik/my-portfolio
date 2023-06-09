@@ -2,6 +2,9 @@
 font-family: 'Space Mono', monospace; */
 :root {
   --main-background-color: #fcf8e8;
+  --color-first: #df7861;
+  --color-second: #94b49f;
+  --color-grey: #666363;
   --border-btn: 1px solid #94b49f;
   --padding-btn: 0.5rem 1rem;
   --paragraph-color-text: #4b4848;
@@ -37,7 +40,7 @@ h2 {
 
 h3 {
   font-size: 2rem;
-  color: #666363;
+  color: var(--color-grey);
 }
 
 h4 {
@@ -111,6 +114,10 @@ p,
   margin-right: 2rem;
 }
 
+.tech-title {
+  color: var(--color-second);
+}
+
 /* Intersection */
 .intersection {
   margin-bottom: 10rem;
@@ -122,11 +129,12 @@ p,
 .intersection a {
   text-decoration: none;
   color: var(--hover-btn);
-  transition: color 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
 }
 
 .intersection a:hover {
   color: var(--visited-color);
+  text-decoration: underline;
 }
 
 /* Contacts */
