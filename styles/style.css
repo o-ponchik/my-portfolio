@@ -119,6 +119,10 @@ p,
   color: var(--color-second);
 }
 
+p .subtitle {
+  color: var(--visited-color);
+}
+
 /* Intersection */
 .intersection {
   margin-bottom: 10rem;
